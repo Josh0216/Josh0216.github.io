@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TriStateSteals</title>
+    <style>
+      img {
+        padding: 5px;
+        width: 400px;
+        border-radius: 40px;
+      }
+      .headerimg {
+        width: 50px;
+        border-radius: 0px;
+      }
+      #headerimgsp {
+        width: 40px;
+        height: 60px;
+        border-radius: 80px;
+        lighting-color: darkgray;
+      }
+      #headerimgsp2 {
+        width: 50px;
+        border-radius: 100px;
+      }
+      .price {
+        color: green;
+        font-size: 30px;
+      }
+      .name {
+        color: red;
+        font-size: 30px;
+      }
+      .link {
+        color: steelblue;
+        font-weight: 100;
+        text-underline-position: below;
+      }
+      body {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        background-image: url(https://ae01.alicdn.com/kf/HTB10hKshnTI8KJjSsphq6AFppXa2/8x8FT-Cartoon-White-Clouds-Light-Blue-Sky-Custom-Photo-Studio-Background-Backdrop-Vinyl-240cm-x-240cm.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+      }
+      .fixed-header,
+      .fixed-footer {
+        width: 100%;
+        position: fixed;
+        background: #333;
+
+        color: #fff;
+      }
+      .fixed-header {
+        z-index: 1;
+        top: 0;
+      }
+
+      /* Some more styles to beutify this example */
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+      }
+      .container p {
+        line-height: 200px; /* Create scrollbar to test positioning */
+      }
+      .thumbnail:hover {
+        position: relative;
+        bottom: -25px;
+        left: -25px;
+        width: 450px;
+        height: auto;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <div class="fixed-header">
+        <div class="container">
+          <nav>
+            <a href="Index.HTML">Home</a>
+            <img
+              id="headerimgsp2"
+              src="http://cdn.ixspy.com/tiktok/author/6783283475815351302.jpg"
+              alt="Main Logo"
+            />
+            <a href="Aboutme">About me</a>
+            <img
+              id="headerimgsp"
+              src="https://external-preview.redd.it/l2w24oqvWbOF3uC72z2k0avviV6zDU5m1cQH2U9w5X4.png?format=pjpg&auto=webp&s=370012424d6b2bbe9d9f39e34dc9867cf64c7644"
+              alt="Zach Face"
+            />
+            <a href="https://www.instagram.com/tristatesteals/">Instagram</a>
+            <img
+              class="headerimg"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/769px-Instagram-Icon.png"
+              alt="Instagram"
+            />
+            <a href="https://www.instagram.com/p/ByXzuuSlD2O/">Refrences</a>
+            <img
+              class="headerimg"
+              src="https://library.kissclipart.com/20180906/vpw/kissclipart-cartoon-paper-png-clipart-paper-cartoon-clip-art-39df2b7f23b5b26c.jpg"
+              alt="Refrence Cartoon"
+            />
+            <a href="mailto: zlieberman@leffellschool.org">Email Me</a>
+            <img
+              class="headerimg"
+              src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gmail.max-1100x1100.png"
+              alt="Gmail"
+            />
+          </nav>
+        </div>
+      </div>
+    </h1>
+
+    <div align="center">
+      <h3>
+        <img
+          class="thumbnail"
+          src="https://sneakerbardetroit.com/wp-content/uploads/2021/09/Nike-Dunk-Low-Archeo-Pink-DD1503-111-Release-Date-Price-4.jpg"
+          alt="Red shoes"
+        />
+        <p class="name">Archeo Pink Dunks</p>
+        <p class="price">$280</p>
+        <br />
+        <img
+          class="thumbnail"
+          src="https://img.stadiumgoods.com/jordan-wmns-air-jordan-6-retro-nrg-aleali-may_14019247_34490188_1000.jpg"
+          alt="alili may 6"
+        />
+        <p class="name">Aleali May 6s</p>
+        <p class="price">$400</p>
+        <br />
+        <img
+          class="thumbnail"
+          src="https://sneakerbardetroit.com/wp-content/uploads/2021/01/Air-Jordan-1-University-Blue-555088-134-Release-Date-Price-4-1068x730.jpg"
+          alt="Air-Jordan-1-University-Blue"
+        />
+        <p class="name">Air Jordan 1s:University Blue</p>
+        <p class="price">$380</p>
+        <br />
+        <img
+          class="thumbnail"
+          src="https://sneakerbardetroit.com/wp-content/uploads/2020/10/Air-Jordan-1-Seafoam-Healing-Orange-White-Release-Date.jpg"
+          alt="Air-Jordan-1-Seafoam"
+        />
+        <p class="name">Air Jordan 1s:Sea Foam</p>
+        <p class="price">$550</p>
+        <br />
+        <img
+          class="thumbnail"
+          src="https://sneakerbardetroit.com/wp-content/uploads/2020/06/Nike-Dunk-Low-Samba-CZ2667-400-2020-Release-Date-Price-4.jpg"
+          alt="Nike-Dunk-Low-Samba"
+        />
+        <p class="name">Nike Samba Dunks</p>
+        <p class="price">$185</p>
+        <br />
+        <img
+          class="thumbnail"
+          src="https://sneakernews.com/wp-content/uploads/2020/08/Air-Jordan-1-Low-Court-Purple-553558_500-4.jpg"
+          alt="Air-Jordan-1-Low-Court-Purple"
+        />
+        <p class="name">Air Jordan 1s:Low Court Purple</p>
+        <p class="price">$220</p>
+      </h3>
+    </div>
+
+    <div align="center" class="footer">
+      <div class="container">
+        <nav>
+          <p>
+            Disclaimer: All items listed are subject to change pleae contact
+            <a class="link" href="https://www.instagram.com/tristatesteals/"
+              >TriStateSteals</a
+            >
+            for further details
+          </p>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
